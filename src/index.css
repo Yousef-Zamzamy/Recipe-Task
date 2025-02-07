@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn {
+  @apply bg-orange-400 py-2 px-4 text-white w-10/12 text-left rounded-xl m-auto text-xl hover:scale-110 duration-300 shadow-lg shadow-orange-300 hover:shadow-none font-semibold my-3;
+}
+
+
+.btn2 {
+    @apply bg-transparent py-2 px-4 w-10/12 text-left rounded-xl m-auto text-xl hover:scale-110 duration-300 font-semibold my-3 border-2 hover:shadow-lg hover:shadow-orange-50;
+  }
+
+  .btn3 {
+    @apply bg-transparent py-2 px-4  rounded-full text-xl hover:scale-110 duration-300 font-semibold my-1 border-2 hover:shadow-lg hover:shadow-gray-100 hover:bg-white hover:text-black ;
+  }
+
+
+  .active{
+    background-color: black;
+    color: white;
+  }
+
+  .row {
+    @apply flex flex-wrap py-5 px-3;
+  }
+
+
+
+  @font-face {
+    font-family: Pacifico;
+    font-weight: 400;
+    src: url(../src/assets/Fonts/Pacifico-Regular.ttf);
+  }
+
+
+  @font-face {
+    font-family: cursive;
+    font-weight: 400;
+    src: url(../src/assets/Fonts/CedarvilleCursive-Regular.ttf);
+  }
