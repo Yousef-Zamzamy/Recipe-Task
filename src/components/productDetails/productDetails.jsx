@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import style from "./ProductDetails.module.css";
+import style from "./productDetails.module.css";
 import { CategoryContext } from "../../Context/categoryContext";
 import { NavLink, useParams } from "react-router-dom";
 
